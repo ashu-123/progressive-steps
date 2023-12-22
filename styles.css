@@ -2,7 +2,7 @@
 
 :root {
     --line-border-fill: #3498db;
-    --line-border-empty: #383838;
+    --line-border-empty: #e2e2e2;
 }
 
 * {
@@ -52,14 +52,14 @@ body {
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 100%;
+    width: 0%;
     z-index: -1;
     transition: 0.4s ease;
 }
 
 .circle {
     background-color: #ffffff;
-    color:#e2e2e2;
+    color:#1f1f1f;
     border-radius: 50%;
     height: 30px;
     width: 30px;
